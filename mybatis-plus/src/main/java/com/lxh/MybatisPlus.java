@@ -6,7 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan("com.lxh.mapper")
 public class MybatisPlus {
-	//主方法
+    /**
+     *  main鏂规硶
+     * @param args
+     */
     public static void main(String[] args){
         SpringApplication.run(MybatisPlus.class, args);
     }
