@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/user")
 public class UserController {
     String username = "zhangsan";
-    int age =23;
+    int age =233;
     String password = "123456";
 }
