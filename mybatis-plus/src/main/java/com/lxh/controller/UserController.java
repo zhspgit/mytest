@@ -12,4 +12,5 @@ public class UserController {
     String username = "zhangsan";
     int age =23;
     String password = "123456";
+    int num = 10;
 }
