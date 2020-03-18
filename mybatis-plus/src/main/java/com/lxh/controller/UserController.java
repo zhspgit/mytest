@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class UserController {
-    int id =1;
     String username = "zhangsan";
     int age =23;
     String password = "123";
