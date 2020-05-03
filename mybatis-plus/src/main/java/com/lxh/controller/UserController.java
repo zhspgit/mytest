@@ -11,4 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     String username = "zhangsan";
     int age = 23;
+    boolean flag = true;
+    public void test(){
+        if(age > 20){
+            age =20;
+        }
+    }
 }
