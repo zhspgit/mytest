@@ -14,7 +14,7 @@ public class UserController {
     boolean flag = true;
     public void test(){
         if(age > 20){
-            age = 20;
+            age = 100;
             System.out.println("-----------");
         }
     }
